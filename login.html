@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css.css" />
+  <title>UKM Bahagia</title>
+  <link rel="icon" href="logo2.png">
+</head>
+
+<body>
+  <div class="container">
+    <input type="checkbox" id="flip">
+    <div class="cover">
+      <div class="front">
+        <img src="logo.png" alt="">
+      </div>
+      <div class="back">
+        <img class="backImg" src="logo.png" alt="">
+      </div>
+    </div>
+    <div class="forms">
+      <div class="form-content">
+        <div class="login-form">
+          <div class="title">Login</div>
+          <form action="#" id = "formlogin">
+            <div class="input-boxes">
+              <div class="input-box">
+                <input type="text" placeholder="Masukkan Username" required name="user">
+              </div>
+              <div class="input-box">
+                <input type="password" placeholder="Masukkan Password" required name="pass">
+              </div>
+              <div class="button input-box">
+                <input type="submit" value="Masuk" name="login">
+              </div>
+              <div class="text sign-up-text">Belum Punya Akun? <label for="flip">Daftar Sekarang</label></div>
+            </div>
+          </form>
+        </div>
+        <div class="signup-form">
+          <div class="title">Daftar</div>
+          <form action="#" id = "formdaftar">
+            <div class="input-boxes">
+              <div class="input-box">
+                <input type="text" placeholder="Masukkan Nama Anda" required name="name">
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Masukkan Username" required name="username">
+              </div>
+              <div class="input-box">
+                <input type="password" placeholder="Masukkan Password" required name="password">
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Masukkan No Telpon" required name="notelp">
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Masukkan Nama Usaha" required name="namausaha">
+              </div>
+              <div class="input-box">
+                <input type="text" placeholder="Masukkan Alamat Usaha" required name="alamatusaha">
+              </div>
+              <div class="button input-box">
+                <input type="submit" value="Daftar" name="signup">
+              </div>
+              <div class="text sign-up-text">Sudah Punya Akun? <label for="flip">Login Sekarang</label></div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
